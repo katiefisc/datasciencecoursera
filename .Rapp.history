@@ -1,0 +1,253 @@
+15:1
+?`:`
+seq(1, 20)
+seq(0, 10, by=0.5)
+my_seq <-seq(5, 10, length=30)
+lenth(my_seq)
+length(my_seq)
+1:length(my_deq)
+1:length(my_seq)
+seq(along = my)
+seq(along = my_seq)
+seq_along(my_seq)
+rep(0,times = 40)
+rep(c(0, 1, 2), times = 10)
+rep(c(0, 1, 2), each = 10)
+c(.5, 55, -10, 6)
+num_vect <-c(.5, 55, -10, 6)
+tf <- num_vect < 1
+tf
+num_vect >=6
+my_char c("My", "name", "is")
+my_char <-c("My", "name", "is")
+my_char
+past(mu_char, collapse = " ")
+paste(my_char, collapse = " ")
+my_name <-c(my_char, "Katie")
+my_name
+paste(my_name, collapse = " ")
+paste("Hello", "World!", sep = " ")
+paste("Hello", "world!", sep = " ")
+paste(1:3, sep = "")
+paste(1:3, c("X", "Y", "Z"), sep = "")
+paste(LETTERS, 1:4, sep = "-")
+x <-c(44, NA, 5, NA)
+x*3
+y <-rnorm(1000)
+z <-rep(NA, 1000)
+myData <-sample(c(y,z), 100)
+is.na(mydata)
+is.na(myData)
+myNA <-is.na(myData)
+myNA
+myData = NA
+myData == NA
+sum(myNA)
+myData
+0/0
+Inf-INf
+Inf-Inf
+x
+x[1:10]
+x[is.na(x)]
+y <-[!is.na(x)]
+y <- x[!is.na(x)]
+y
+y[y > 0]
+x[x > 0]
+x[!is.na(x) & x > 0]
+x(3:7)
+x <-c
+[c(3, 5, 7)]
+x <- c(3, 5, 7)
+x <- [c(3, 5, 7)]
+x
+x[c(3, 5, 7)]
+x[0]
+x[3000]
+x[c(-2, -10)]
+x[-c(2,10)]
+vect <- c(foo = 11, bar = 2, norf = NA)
+vect
+names(vect)
+vect2 <-c(11, 2, NA)
+names(vect2) <-c("foo", "bar", "norf")
+identical(vect, vect2)
+vect["bar"]
+vect[c("foo", "bar")]
+myVector <- [c(1:20)]
+myVector <- c(1:20)
+myVector <- c(1:20)
+myVector <- [1:20]
+myVector <-c(1:20)
+myVector <- (1:20)
+info()
+myVector <- c(1:20)
+c(1:20)
+myVector <-c(1:20)
+myVector <- 1:20
+myVector
+dim(myVector)
+length(myVector)
+dim(myVector) <- c(4,5)
+dim(myVector)
+attributes(myVector)
+myVector
+class(myVector)
+myMatrix
+myMatrix <-myVector
+matrix?
+matrix()
+?
+matrix
+?
+matrix
+myMatrix2 <- matrix(data = 1:20, nrow = 4, ncol = 5, byrow = FALSE, dimnames = NULL)
+identical(myMatrix, myMatrix2)
+patients <- c("Bill", "Gina", "Kelly, "Sean")
+patients <- ("Bill", "Gina", "Kelly, "Sean")
+patients <- c("Bill", "Gina", "Kelly", "Sean")
+cbind(patients, myMatrix)
+myData <-data.frame(patients, myMatrix)
+myData
+class(myData)
+cnames <- c("patient", "age", "weight", "bp", "rating", "test")
+colnames(myData) <-c("patient", "age", "weight", "bp", "rating", "test")
+colnames(myData) <- cnames
+myData
+getwd()
+data <- read.table("hw1_data.csv", header = TRUE, sep = ",")
+ozone <-data[,1]
+ozone
+ozoneNA <-is.na(ozone)
+ozoneclean <-ozone[!ozoneNA]
+mean(ozoneclean)
+ozone18 <- ["ozoneclean" >= 31]
+ozoneclean
+Oz <-data[data$Ozone > 31, ]
+Temp <- Oz[Oz$Temp > 90, ]
+OzTempNA <- is.na(Temp$Ozone & Temp$Temp)
+OzTempClean <-Temp[!OzTempNA]
+JO <- data[data$Ozone > 31, ]
+JO2 <- JO[JO$Temp > 90, ]
+NONO <- is.na(JO2$Ozone & JO2$Temp)
+JO3 <- JO2[!NONO, ]
+mean(JO3$Solar.R)
+filtered
+filtered <- data[(data$Ozone > 31 ) & (data$Temp > 90), ]
+filteredNA <- is.na(filtered)
+filteredclean <-filtered[!filteredNA]
+mean(filtered$Solar.R)
+Filtered_For_Ozone <- data[data$Ozone > 31, ]
+Filtered_For_Temp <- Filtered_For_Ozone[Filtered_For_Ozone$Temp > 90, ]
+Filtered_NAs <- is.na(Filtered_For_Temp$Ozone & Filtered_For_Temp$Temp)
+Clean_Filtered <- Filtered_For_Temp(!Filtered_NAs)
+Clean_Filtered <- Filtered_For_Temp[!Filtered_NAs]
+Clean_Filtered <- Filtered_For_Temp[!Filtered_NAs, ]
+mean(Clean_Filtered$Solar.R)
+June <-data[data$Month = 6, ]
+June <-data[data$Month == 6, ]
+June_NA <- is.na(June)
+June_clean < June[!June_NA]
+June_clean <- June[!June_NA]
+mean(June_clean$Temp)
+mean(June-clean[['Temp']])
+mean(June_clean[['Temp']])
+June_clean
+class(June_clean)
+June
+mean(June$Temp)
+May <- data[data$Month = 5, ]
+May <- data[data$Month == 5, ]
+max(as.numeric(May$Ozone,)na.rm=TRUE)
+max(as.numeric(May$Ozone,)narm=T)
+max(as.numeric(May$Ozone)narm=T)
+max(May$Ozone)narm=T)
+?
+max
+max(May$Ozone, na.rm=T)
+x<-4L
+class(x)
+x<-c(4, "a", TRUE)
+class(x)
+x<-c(1,3,5)
+y<-c(3, 2, 10)
+rbind(x,y)
+x<-1:4
+y<-2
+x=y
+x+y
+z <-x+y
+z
+ozoneNA
+count(ozoneNA)
+?
+count
+sum
+?
+su,
+?
+sum
+sum(ozoneNA)
+pwd
+getwd()
+cd()
+?
+change
+getwd()
+data <- read.table("hw1_data.csv", header = TRUE, sep = ",")
+data <- read.table("001.csv", header = TRUE, sep = ",")
+ls()
+getwd()
+x<-read.csv(specdata/001.csv)
+x<-read.csv(001.csv)
+x<-read.csv("001.csv")
+data <- read.table("001.csv", header = TRUE, sep = ",")
+getwd()
+ls
+ls()
+getwd()
+list.files()
+setwd()
+cd()
+setwd(/specdata)
+?
+setwd()
+get(wd)
+getwd()
+list.files()
+x<-read.csv(specdata/001.csv)
+x<-read.csv("001.csv")
+x
+getwd()
+set()
+setwd()
+setwd(datasciencecoursera)
+setwd(/Users/kfiscalini/datasciencecoursera)
+setwd(Users/kfiscalini/datasciencecoursera)
+setwd(kfiscalini/datasciencecoursera)
+setwd(datasciencecoursera)
+setwd(..)
+getwd()
+x<-read.csv(specdata/001.csv)
+x<-read.csv(specdata.001.csv)
+x<-read.csv(specdata.001.csv)
+x<-read.csv("specdata.001.csv")
+x<-read.csv("001.csv")
+?
+sprintf()
+testfunc <- function(specdata, id = 1:10){#
+        allData<-read.csv(paste(specdata,"/",id,".csv", sep =""))#
+        return(allData)#
+}
+testfunc()
+alldata
+?
+rnorm()
+?
+col()
+source("http://d396qusza40orc.cloudfront.net/rprog%2Fscripts%2Fsubmitscript1.R")
+source("submitscript1.R")
+getwd()
+source("submitscript1.R")
+submit()
