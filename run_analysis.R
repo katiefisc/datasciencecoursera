@@ -1,4 +1,4 @@
-## Make sure to load this libraries
+## Make sure to load this libraries into R to complete this analysis
 library(data.table)
 library(plyr)
 
